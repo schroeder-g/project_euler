@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "py-scripts"
+version = "0.1.0"
+description = ""
+authors = ["Alex Goncalves <alex.goncalves@pathify.com>"]
+packages = [{ include = "git"  }]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fire = "^0.6.0"
+pyautogui = "^0.9.54"
+open-interpreter = "^0.3.7"
+ipython = "^8.26.0"
+pydantic = "^2.8.2"
+pydantic_core = "^2.20.1"
+pydash = "^8.0.3"
+PyPDF2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 88  # or your chosen value
+target-version = ['py39']  # Adjust as needed
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+

@@ -1,0 +1,4 @@
+*.pyc
+.DS_Store
+**/out/*
+!out/read_out_file.py
