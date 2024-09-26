@@ -1,0 +1,52 @@
+[project]
+name = "py-scripts"
+# authors = [{"Alex Goncalves <alex.goncalves@pathify.com>" }]
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fire>=0.6.0",
+    "pyautogui>=0.9.54",
+    "ipython>=8.26.0",
+    "pydantic>=2.8.2",
+    "pydantic_core>=2.20.1",
+    "pydash>=8.0.3",
+    "PyPDF2>=3.0.1",
+    "asttokens>=2.4.1",
+    "html2image>=2.0.4.3",
+    "inquirer>=3.4.0",
+    "jsonschema>=4.23.0",
+    "matplotlib>=3.9.2",
+    "nltk>=3.8.1",
+    "numpy>=2.0.1",
+    "pillow>=10.4.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "scipy>=1.14.1",
+    "tiktoken>=0.7.0",
+]
+
+[tool.isort]
+profile = "black"
+
+# [build-system]
+
+
+[tool.black]
+line-length = 88  # or your chosen value
+target-version = ['py39']  # Adjust as needed
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
