@@ -1,4 +1,4 @@
-# from project_euler.utils.read_out_file import read_out_file
+# from out.read_out_file import read_out_file
 from dataclasses import dataclass
 from features.game.GameState import GameState
 

@@ -1,4 +1,4 @@
-from project_euler.utils.get_coprime import is_coprime
+from maths.get_coprime import is_coprime
 
 
 def get_multiplicative_order(n, a):

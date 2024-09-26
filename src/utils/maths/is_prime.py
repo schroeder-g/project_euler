@@ -1,5 +1,4 @@
-from project_euler.utils.is_factor import is_factor
-import random
+from maths.is_factor import is_factor
 
 
 def defunct_is_prime(n):

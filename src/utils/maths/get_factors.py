@@ -1,4 +1,4 @@
-from project_euler.utils.is_prime import is_prime
+from maths.is_prime import is_prime
 from arrays.flatten import flatten
 from functools import reduce
 

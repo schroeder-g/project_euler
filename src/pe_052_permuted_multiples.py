@@ -1,6 +1,3 @@
-from project_euler.utils.read_out_file import read_out_file
-
-file = 'permutations_0_to_9'
 def find_permuted_multiples():
     all_ = {}
     RANGE_START = 125874
@@ -13,7 +10,7 @@ def find_permuted_multiples():
         perms = set({n})
         for i, m in enumerate(range(2, 7)):
             product = m * n
-            
+
             if sorted(str(product)) != st:
                 break
             else:
@@ -21,11 +18,8 @@ def find_permuted_multiples():
                     print(i, n, product, perms)
                 perms.add(product)
 
-
         if len(perms) == 6:
-            print('gotcha', n)
             all_[n] = perms
-
 
     print(sorted(all_.items(), key=lambda i: i[0]))
 

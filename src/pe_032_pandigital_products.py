@@ -1,7 +1,7 @@
 import os
 from itertools import permutations
-from project_euler.utils.partitions import get_integer_partition_permutations
-from project_euler.utils.read_out_file import read_out_file
+from maths.partitions import get_integer_partition_permutations
+from out.read_out_file import read_out_file
 
 
 def is_pandigital(mul1, mul2, product):
@@ -50,7 +50,7 @@ def check_for_multiplicands():
     for number_string in read_out_file():
         partitions = get_integer_partition_permutations(len(number_string), 3)
         for part in partitions:
-            i1, i2, i3 = part[0], part[1], part[2]
+            i1, i2, _ = part[0], part[1], part[2]
             m1, m2, product = (
                 int(number_string[0:i1]),
                 int(number_string[i1 : i1 + i2]),

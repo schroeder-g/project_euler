@@ -1,11 +1,10 @@
 from collections import OrderedDict
-from project_euler.utils.sieve_of_eratosthenes import gen_primes
-from project_euler.utils.get_factors import reduce_to_prime_factors
+from maths.get_factors import reduce_to_prime_factors
+
 
 # https://projecteuler.net/problem=47
 def find_four_consecutive_primes():
     prime_factor_map = OrderedDict()
-    primes = gen_primes()
 
     n = 1
     while len(prime_factor_map) < 4:
@@ -15,12 +14,12 @@ def find_four_consecutive_primes():
             prime_factor_map[n] = n_factors
         elif len(prime_factor_map):
             prime_factor_map = OrderedDict()
-        
+
         n += 1
-    
+
     return prime_factor_map.popitem(last=False)
-        
+
     # pass
 
-print(find_four_consecutive_primes())
 
+print(find_four_consecutive_primes())

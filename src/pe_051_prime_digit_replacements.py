@@ -1,5 +1,5 @@
-from project_euler.utils.sieve_of_eratosthenes import gen_primes
-from project_euler.utils.is_prime import is_prime
+from maths.sieve_of_eratosthenes import gen_primes
+from maths.is_prime import is_prime
 from sets.powerset import powerset
 from collections import defaultdict
 

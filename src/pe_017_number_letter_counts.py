@@ -77,6 +77,6 @@ def get_num_word(num):
 
 def sum_letter_counts():
     spelled_str = "".join(
-        list(filter(lambda l: l != " " and l != "-", "".join(get_range_num_words())))
+        list(filter(lambda list_: list_ != " " and list_ != "-", "".join(get_range_num_words())))
     )
     return len(spelled_str)

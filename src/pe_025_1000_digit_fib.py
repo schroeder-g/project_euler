@@ -11,7 +11,8 @@ def get_1st_fib_num_with_1000_digits():
         if n < 2:
             seq[n] = n
             return n
-        ans = fib(n - 1) + fib(n - 2)
+        # ans = fib(n - 1) + fib(n - 2)
+        ans = None
         seq[n] = ans
         return ans
 

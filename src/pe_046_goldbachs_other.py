@@ -1,5 +1,6 @@
-from project_euler.utils.sieve_of_eratosthenes import gen_primes as generate_primes
-from project_euler.utils.is_prime import is_prime
+from maths.sieve_of_eratosthenes import gen_primes as generate_primes
+from maths.is_prime import is_prime
+from heapq import hq
 
 
 # https://projecteuler.net/problem=46

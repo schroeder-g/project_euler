@@ -1,5 +1,5 @@
-from project_euler.utils.get_factors import get_factors
-from project_euler.utils.get_first_condition_match import get_first_condition_match
+from maths.get_factors import get_factors
+from arrays.get_first_condition_match import get_first_condition_match
 
 
 # var n being the placement in the sequence of triangular numbers

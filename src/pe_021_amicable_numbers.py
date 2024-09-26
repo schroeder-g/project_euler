@@ -1,4 +1,4 @@
-from project_euler.utils.get_factors import get_factors
+from maths.get_factors import get_factors
 
 
 def get_amicable_nums(start, end):

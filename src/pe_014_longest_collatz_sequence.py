@@ -9,8 +9,8 @@ def gen_collatz(n):
     return sequence
 
 
-def get_largest_collatz(l, r):
-    series = [(i, len(gen_collatz(i))) for i in range(l, r)]
+def get_largest_collatz(left, r):
+    series = [(i, len(gen_collatz(i))) for i in range(left, r)]
 
     num_max_ = (0, 0)
 

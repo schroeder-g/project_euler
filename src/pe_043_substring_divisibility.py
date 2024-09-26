@@ -1,7 +1,7 @@
 import os
 from itertools import permutations
 from arrays.MovingWindow import MovingWindow
-from project_euler.utils.read_out_file import read_out_file
+from out.read_out_file import read_out_file
 
 out_file = "permutations_0_to_9"
 

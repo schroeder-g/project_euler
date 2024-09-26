@@ -1,5 +1,5 @@
 from math import sqrt
-from project_euler.utils.is_integral import is_integral
+from maths.is_integral import is_integral
 
 
 def get_hypotenuse(a, b):

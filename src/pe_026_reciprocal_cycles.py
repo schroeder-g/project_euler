@@ -2,10 +2,10 @@ from heapq import heappush, heappop
 import decimal
 
 
-from project_euler.utils.is_prime import is_prime
-from project_euler.utils.get_factors import get_factors
-from project_euler.utils.get_multiplicative_order import get_multiplicative_order
-from project_euler.utils.sieve_of_eratosthenes import sieve_of_eratosthenes
+from maths.is_prime import is_prime
+from maths.get_factors import get_factors
+from maths.get_multiplicative_order import get_multiplicative_order
+from maths.sieve_of_eratosthenes import sieve_of_eratosthenes
 
 print(sieve_of_eratosthenes(1000))
 

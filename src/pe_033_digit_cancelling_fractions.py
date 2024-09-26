@@ -1,4 +1,4 @@
-from project_euler.utils.is_prime import is_prime
+from maths.is_prime import is_prime
 from maths import Fraction
 from fractions import Fraction as Frac47
 from functools import reduce

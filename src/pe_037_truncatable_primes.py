@@ -1,4 +1,4 @@
-from project_euler.utils.sieve_of_eratosthenes import sieve_of_eratosthenes
+from maths.sieve_of_eratosthenes import sieve_of_eratosthenes
 
 
 def find_sum_of_truncatable_primes():

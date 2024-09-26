@@ -16,9 +16,7 @@ def smallest_multiple_of_sub_20():
         if not is_smallest_multiple:
             continue
 
-        print(
-            f"{base} is evenly divisible by all numbers in the range 1 -> 21:\n"
-        )
+        print(f"{base} is evenly divisible by all numbers in the range 1 -> 21:\n")
         for i, div in enumerate(largest_divisors):
             print(f"{base} % {div} = {base % div}")
         is_smallest_multiple = True

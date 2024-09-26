@@ -1,5 +1,5 @@
-from project_euler.utils.score_word import score_word
-from project_euler.utils.read_out_file import read_out_file
+from strings.score_word import score_word
+from out.read_out_file import read_out_file
 
 
 words = read_out_file("triangle_words")

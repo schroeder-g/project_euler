@@ -1,5 +1,5 @@
-from project_euler.utils.sieve_of_eratosthenes import sieve_of_eratosthenes
-from project_euler.utils.derive_differences import get_frequency_of_differences
+from maths.sieve_of_eratosthenes import sieve_of_eratosthenes
+from arrays.derive_differences import get_frequency_of_differences
 from itertools import permutations
 from pydash import chunk
 

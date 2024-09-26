@@ -1,4 +1,4 @@
-from project_euler.utils.create_pascal_triangle import create_pascal_triangle
+from maths.create_pascal_triangle import create_pascal_triangle
 from typing import Any
 
 

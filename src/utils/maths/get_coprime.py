@@ -1,4 +1,4 @@
-from project_euler.utils.get_gcd import gcd
+from maths.get_gcd import gcd
 
 
 def is_coprime(a, b):

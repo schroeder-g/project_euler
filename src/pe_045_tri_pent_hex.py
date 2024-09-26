@@ -1,4 +1,3 @@
-from math import sqrt
 from maths.quadratic_formula import quad
 from utils.timer import timer
 

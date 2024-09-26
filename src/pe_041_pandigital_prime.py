@@ -1,7 +1,7 @@
 import ast
 import os
 
-from project_euler.utils.is_prime import is_prime
+from maths.is_prime import is_prime
 
 
 def generate_pandigital_primes(file_path):

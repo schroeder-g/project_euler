@@ -1,6 +1,6 @@
-from project_euler.utils.is_prime import is_prime
-from project_euler.utils.rotate_int import rotate_int
-from project_euler.utils.sieve_of_eratosthenes import sieve_of_eratosthenes
+from maths.is_prime import is_prime
+from maths.rotate_int_int import rotate_int
+from maths.sieve_of_eratosthenes import sieve_of_eratosthenes
 
 
 def count_circular_primes():

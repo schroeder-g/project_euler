@@ -1,4 +1,4 @@
-from project_euler.utils.is_palindrome import is_palindrome
+from strings.is_palindrome import is_palindrome
 
 
 def get_sum_doubly_palindromic_nums():

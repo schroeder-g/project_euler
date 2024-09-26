@@ -1,4 +1,4 @@
-from project_euler.utils.get_sums_to_target import get_summing_permutations
+from maths.get_sums_to_target import get_summing_permutations
 
 
 def is_composable_by_adderants(target: int or float, adds: [int or float]):
